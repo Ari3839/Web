@@ -1,0 +1,45 @@
+/*Code based on the file 'review.css' given in the workshop 5 of the web programming module*/
+
+/*A. Ariadna Lazaro Mtz*/
+/*w22034009*/
+/*KF5002: Web programming final Assignment*/
+
+/*Defining arrangement of the components in the page*/
+#gridContainer {
+	display: grid;
+	grid-template-rows:[header] auto [content] auto [footer] auto;
+	grid-template-columns: [nav] 250px [main] 1fr;
+	grid-template-areas:
+	"header header"
+	"nav main"
+	"footer footer";
+}
+
+/*Defining style of the components in the page*/
+header {
+	grid-area: header;
+	min-height: 50px;
+	background-color: #ba55d3;
+}
+
+
+nav {
+	grid-area: nav;
+	background-color: #e6e6fa;
+	padding: 10px;
+}
+
+main {
+	grid-area: main;
+	margin-left: 15px;
+}
+
+nav, main, footer {
+	margin-top: 10px;
+}
+
+footer {
+	grid-area: footer;
+	text-align: center;
+	background-color: #ba55d3;
+}

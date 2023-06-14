@@ -1,0 +1,3 @@
+Tue Nov 29 22:12:47 GMT 2022|Use of undefined constant console - assumed 'console'
+Sat Dec 3 19:53:15 GMT 2022|Undefined index: recordID
+Sat Dec 3 20:00:21 GMT 2022|SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 11
